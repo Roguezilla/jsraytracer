@@ -5,7 +5,9 @@ class Boundary {
 	}
 
 	show(r, g, b) {
+		push();
 		stroke(r, g, b);
 		line(this.a.x, this.a.y, this.b.x, this.b.y);
+		pop();
 	}
 }

@@ -24,6 +24,7 @@ class Particle {
                         closest = pt;
                         max = dist;
                     }
+                    //add wall highlight
                 }
             }
             if(closest) {
