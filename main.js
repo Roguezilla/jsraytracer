@@ -3,7 +3,7 @@ let p;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	for (let i = 0; i < 5; i++) {
+	for (let i = 0; i < 10; i++) {
     	let x1 = random(width);
     	let x2 = random(width);
     	let y1 = random(height);
